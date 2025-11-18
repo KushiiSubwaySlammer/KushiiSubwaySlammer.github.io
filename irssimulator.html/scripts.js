@@ -24,7 +24,7 @@
   } else if (incomeregistry > 250000 && incomeregistry < 400000){
     let mincut = (incomeregistry - 250000);
     let minrate = (mincut * 0.20); 
-    document.getElementById('x').textContent = ("Your Income Tax is:(minrate)");
+    document.getElementById('x').textContent = (minrate);
 
   } else if (incomeregistry <= 250000 && incomeregistry >= 1){
     document.getElementById('x').textContent = ("No taxes for you...");
