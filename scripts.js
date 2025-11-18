@@ -1,3 +1,3 @@
-function home(){
-  location.href = "./index.html";
+freedomizer(){
+  location.href = "./freedomizer.html/main.html";
 }
